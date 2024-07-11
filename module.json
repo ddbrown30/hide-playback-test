@@ -1,26 +1,27 @@
 {
-  "name": "hiddensoundtracks",
-  "title": "Hidden Soundtracks",
-  "description": "Removes soundtrack names and un-usable controls from non GM clients",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "9",
-  "authors": [
-    {
-      "name": "Kandashi",
-      "url": "https://github.com/Kandashi",
-      "discord": "Kandashi (He/Him)#6698#0001"
-    }
-  ],
+  "id": "hide-playback",
+  "title": "Hide Playback",
+  "description": "Hides the playlist info and the name and playback controls for the currently playing track for non-GMs",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12.328"
+  },
+  "version": "0.1.0",
   "esmodules": [
-    "/scripts/hideTracks.js"
+    "scripts/hidePlayback.js"
   ],
   "styles": [
-    "/styles/hideTracks.css"
+    "styles/hidePlayback.css"
   ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced"
+  "url": "https://github.com/ddbrown30/hide-playback",
+  "manifest": "https://github.com/ddbrown30/hide-playback/releases/download/0.1.0/module.json",
+  "download": "https://github.com/ddbrown30/hide-playback/releases/download/0.1.0/module.zip",
+  "bugs": "https://github.com/ddbrown30/hide-playbacks/issues",
+  "authors": [
+    {
+      "name": "Dan Brown",
+      "discord": "thechemist30",
+      "flags": {}
+    }
+  ]
 }
